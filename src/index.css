@@ -18,6 +18,10 @@ body {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
+.status {
+  font-size: 2rem;
+}
+
 .game-info {
   margin-top: 20px;
 }
@@ -42,7 +46,13 @@ body {
 
 @media (max-width: 768px) {
   .square {
-    width: calc(100vw / 3 - 2px); /* Adjust based on border width */
-    height: calc(100vw / 3 - 2px);
+    height: 6rem;
+    width: 6rem;
+  }
+}
+@media (max-width: 500px) {
+  .square {
+    height: 3.5rem;
+    width: 3.5rem;
   }
 }
